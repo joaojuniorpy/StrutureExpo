@@ -2,17 +2,18 @@ Estrutura Rropria para o Expo
 
 Passos para instalar da estrutura:
 1-Instalar Dependencias
-    react-native-gesture-handler
-    react-native-reanimated:
-    react-native-safe-area-context
-    react-native-screens: 
-    react-navigation: 
-    react-navigation-drawer: 
-    react-navigation-stack: 
-    react-navigation-tabs: 
-    styled-components:
-    react-native-maps:
-(Para conferir as dependencias instaladas abra o PACKAGE.JSON)
+    yarn react-native-gesture-handler &&
+    yarn react-native-reanimated &&
+    yarn react-native-safe-area-context &&
+    yarn react-native-screens &&
+    yarn react-navigation &&
+    yarn react-navigation-drawer && 
+    yarn react-navigation-stack && 
+    yarn react-navigation-tabs && 
+    yarn styled-components &&
+    yarn react-native-maps
+    (Copiar as dependencias acima e colar diretamente no terminal)
+    (Para conferir as dependencias instaladas abra o PACKAGE.JSON)
 
 2 -Não Alterar o App.js
 
@@ -25,6 +26,10 @@ Passos para instalar da estrutura:
 -Node_Modules: Dependencias
 
 4- Ao incluir telas inclua as mesmas no arquivo ../Navigation/INDEX.js!
+
+5- Para  usar o projeto é somente dar 
+git clone:https://github.com/joaojuniorpy/struture-app-expo.git
+
 
 Boa Sorte! =)
 
