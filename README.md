@@ -1,7 +1,8 @@
 Estrutura Rropria para o Expo
 
 Passos para instalar da estrutura:
-1-Instalar Dependencias
+1-Instalar Dependencias *Na pasta do projeto
+    yarn install
     yarn react-native-gesture-handler 
     yarn react-native-reanimated 
     yarn react-native-safe-area-context 
