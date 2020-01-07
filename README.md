@@ -28,7 +28,7 @@ Passos para instalar da estrutura:
 4- Ao incluir telas inclua as mesmas no arquivo ../Navigation/INDEX.js!
 
 5- Para  usar o projeto é somente dar 
-git clone:https://github.com/joaojuniorpy/struture-app-expo.git
+git clone https://github.com/joaojuniorpy/struture-app-expo.git
 
 
 Boa Sorte! =)
