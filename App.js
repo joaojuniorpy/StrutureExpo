@@ -1,8 +1,8 @@
 import React from 'react';
-import Navigation from './navigation';
+import Routes from './routes';
 
 export default function App() {
   return (
-    <Navigation />
+    <Routes />
   );
 }

@@ -1,20 +1,19 @@
-// import React from 'react';
 import { createAppContainer,} from  'react-navigation';
 import{createStackNavigator}from'react-navigation-stack';
 
-import Welcome from '../screens/Welcome';
-import Login from '../screens/Login';
-import Map from '../screens/Map';
-import Settings from '../screens/Settings';
+import Welcome from '../pages/Welcome';
+import Login from '../pages/Login';
+import Map from '../pages/Map';
+import Settings from '../pages/Settings';
 
 const screens = createStackNavigator({
-  Welcome, 
   Login, 
+  Welcome, 
   Map,
   Settings,
   }, {
     defaultNavigationOptions: {
-        header: null,
+        headerShown: true,
       },
   });
 

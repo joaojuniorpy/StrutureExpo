@@ -1,33 +1,8 @@
 import React from 'react';
-import styled from 'styled-components/native';
+import {Container, ContainerDescription, Title, SubTitle} from './styles';
 
 export default function Welcome() {
-  // function HandleLogin() {
-  //   navigation.navigate('Login');
-  // }
-  const Container = styled.View`
-    flex: 1;
-    background-color: #7156c1;
-    justify-content: center;
-  `;
-  const ContainerDescription = styled.View`
-  flex: 1;
-  background-color: #7156c1;
-  justify-content: center;
-  align-items: center;
-`;
-  const Title = styled.Text`
-    color: whitesmoke;
-    font-size: 28;
-    align-self: center;
-    margin-top: 12;
-  `;
-  const SubTitle = styled.Text`
-  color: whitesmoke;
-  font-size: 18;
-  align-self: center;
-  margin-top: 12;
-`;
+
   return (
     <>
       <Container>
